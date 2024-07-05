@@ -42,3 +42,7 @@ plotLoss_experiment.ipynb (Figure 5)
 - jointEmbedding.ipynb - Image representation (Figure 6c) and joint representation (Figure 6d)
 - latent_cell_representation_visualization.ipynb - PCA of image representations for 36 cell lines (Supplemental Figure 13)
 
+![alt text](https://github.com/uhlerlab/PUPS/blob/main/mongo.001.jpeg)
+![alt text](https://github.com/uhlerlab/PUPS/blob/main/mongo.002.jpeg)
+![alt text](https://github.com/uhlerlab/PUPS/blob/main/mongo.003.jpeg)
+
