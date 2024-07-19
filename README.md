@@ -1,4 +1,4 @@
-All required packages are listed in package-list.txt.
+All required packages are listed in package-list.txt and can be installed via conda. Model training requires GPU.
 
 # Pretrained models using the Human Protein Atlas:
 - ./checkpoints has the model parameters for all the 22 epochs.
