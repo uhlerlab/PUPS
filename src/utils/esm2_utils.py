@@ -60,3 +60,8 @@ def call_esm_model(data_chunk):
         mean_rep.append(aa_reps[i, 1 : tokens_len - 1].mean(0))
     return mean_rep[0], aa_reps[0]
 
+def get_esm2_representation(proteoform_id, sequence):
+    _mean_rep, aa_rep = call_esm_model([(proteoform_id, sequence)])
+    # the second aa_rep is just to get around pad_collate
+    X, _, x_len, _ = pad_collate(np.array([(aa_rep, aa_rep)])) 
+    return X, x_len
