@@ -1,3 +1,5 @@
+All required packages are listed in package-list.txt and can be installed via conda. Model training requires GPU.
+
 # Pretrained models using the Human Protein Atlas:
 - ./checkpoints has the model parameters for all the 22 epochs.
 - All results in the paper are based on the model parameters in “splice_isoform_dataset_cell_line_and_gene_split_full-epoch=01-val_combined_loss=0.18.ckpt”
